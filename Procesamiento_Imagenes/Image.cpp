@@ -77,3 +77,22 @@ ImageType Image:: getFileType(const char* filename){
     }
     return PNG; // retornamos png por si no llega a detectar ninguna de las anteriores en los if vistos
 }
+
+Image& Image::grayscale_promedio(){
+    /*lo que se hace en este método es que suma todos los canales de color y los divide entre tres
+    red + blue + green/3, hace un promedio y pone ese valor en cada pixel
+    */
+    if(channels < 3){
+       printf("la imagen %p tiene menos de 3 canales, se asumen que ya está en escala de grises", this);    
+    } else{
+        for(int i=0; i<size; i+=channels){
+            int gray = (data[i]+ data[i+1]+ data[i+2])/3; //suma los tres canales del pixel y lo divide por tres para poner el valor promediado
+            memset(data+i, gray, 3); 
+        }
+    }
+    return *this;
+}
+Image& Image::grayscale_lum(){
+   /*
+   */ 
+}

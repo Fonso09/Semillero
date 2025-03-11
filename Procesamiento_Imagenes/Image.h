@@ -20,5 +20,9 @@ struct Image{
     bool write(const char* filename);
 
     ImageType getFileType(const char* filename);
+    
+    Image& grayscale_promedio(); // filtros para escala de grises
+    Image& grayscale_lum();
+
 };
 
