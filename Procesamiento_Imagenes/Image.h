@@ -23,6 +23,7 @@ struct Image{
     
     Image& grayscale_promedio(); // filtros para escala de grises
     Image& grayscale_lum();
+    Image& convolution();
 
 };
 
