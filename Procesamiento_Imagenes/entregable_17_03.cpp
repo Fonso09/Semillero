@@ -10,7 +10,7 @@ int main(){
         int  R = planta_usable.data[i];
         int  G = planta_usable.data[i+1];
         int  B = planta_usable.data[i+2];
-        float ExG = 1.9 * G - R - B; //filtrado por exceso de verdes: 
+        float ExG = 1.9 * G - R - B; //filtrado por exceso de verdes con un peso de 1.9
         if(ExG > 50){
             planta_vectorizada.data[j]=255;
         } else{
