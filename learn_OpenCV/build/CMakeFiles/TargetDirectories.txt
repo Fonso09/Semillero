@@ -1,3 +1,3 @@
-/c/Users/Usuario/Desktop/codes_universidad/Semillero/learn_OpenCV/build/CMakeFiles/app.dir
-/c/Users/Usuario/Desktop/codes_universidad/Semillero/learn_OpenCV/build/CMakeFiles/edit_cache.dir
-/c/Users/Usuario/Desktop/codes_universidad/Semillero/learn_OpenCV/build/CMakeFiles/rebuild_cache.dir
+/c/Users/USUARIO/Desktop/Semillero/learn_OpenCV/build/CMakeFiles/app.dir
+/c/Users/USUARIO/Desktop/Semillero/learn_OpenCV/build/CMakeFiles/edit_cache.dir
+/c/Users/USUARIO/Desktop/Semillero/learn_OpenCV/build/CMakeFiles/rebuild_cache.dir

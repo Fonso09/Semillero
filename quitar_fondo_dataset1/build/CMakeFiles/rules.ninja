@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake.exe --regenerate-during-build -S/c/Users/USUARIO/Desktop/Semillero/learn_OpenCV -B/c/Users/USUARIO/Desktop/Semillero/learn_OpenCV/build
+  command = /usr/bin/cmake.exe --regenerate-during-build -S/c/Users/USUARIO/Desktop/Semillero/quitar_fondo_dataset1 -B/c/Users/USUARIO/Desktop/Semillero/quitar_fondo_dataset1/build
   description = Re-running CMake...
   generator = 1
 
